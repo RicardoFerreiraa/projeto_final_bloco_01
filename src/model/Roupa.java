@@ -4,11 +4,13 @@ public abstract class Roupa {
 	private char Tamanho;
 	private char Cor;
 	private float Material;
+	private int Codigo;
 
-	public Roupa(char tamanho, char cor, float material) {
+	public Roupa(char tamanho, char cor, float material, int Codigo) {
 		this.Tamanho = tamanho;
 		this.Cor = cor;
 		this.Material = material;
+		this.Codigo = Codigo;
 	}
 
 	public char getTamanho() {
@@ -40,6 +42,14 @@ public abstract class Roupa {
 		this.Material = material;
 	}
 
+
+	public int getCodigo() {
+		return Codigo;
+	}
+
+	public void setCodigo(int codigo) {
+		this.Codigo = codigo;
+	}
 
 	public abstract void Visualizar();
 

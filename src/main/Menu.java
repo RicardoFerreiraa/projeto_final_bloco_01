@@ -20,8 +20,9 @@ public class Menu {
 			System.out.println("|            1 - Adicionar produtos                 |");
 			System.out.println("|            2 - Listar todos os produtos           |");
 			System.out.println("|            3 - Buscar produtos por número         |");
-			System.out.println("|            4 - Deletar produtos                   |");
-			System.out.println("|            5 - Sair                               |");
+			System.out.println("|            4 - Atualizar Produto                  |");
+			System.out.println("|            5 - Deletar produtos                   |");
+			System.out.println("|            6 - Sair                               |");
 			System.out.println("|                                                   |");
 			System.out.println("|***************************************************|");
 			System.out.println("           Entre com a opção desejada: ");
@@ -33,16 +34,17 @@ public class Menu {
 				sc.nextLine();
 			}
 
-			if (opcao == 5) {
+			if (opcao == 6) {
 				System.out.println("\n Programa Finalizado! ");
 				sobre();
 				sc.close();
 				System.exit(0);
-				
+
 			}
 
 			switch (opcao) {
 			case 1:
+
 				break;
 
 			case 2:
@@ -52,6 +54,12 @@ public class Menu {
 				break;
 
 			case 4:
+				break;
+
+			case 5:
+				break;
+
+			case 6:
 				break;
 
 			default:

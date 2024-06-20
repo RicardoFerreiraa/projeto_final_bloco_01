@@ -4,8 +4,8 @@ public class Calca extends Roupa {
 
 	private String Cintura;
 
-	public Calca(char tamanho, char cor, float material, String Cintura) {
-		super(tamanho, cor, material);
+	public Calca(char tamanho, char cor, float material, String Cintura, int Codigo) {
+		super(tamanho, cor, material, Codigo);
 		this.Cintura = Cintura;
 	}
 

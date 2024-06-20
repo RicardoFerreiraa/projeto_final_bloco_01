@@ -4,8 +4,8 @@ public class Camisa extends Roupa {
 
 	private String TipoManga;
 
-	public Camisa(char tamanho, char cor, float material, String TipoManga) {
-		super(tamanho, cor, material);
+	public Camisa(char tamanho, char cor, float material, String TipoManga, int Codigo) {
+		super(tamanho, cor, material, Codigo);
 		this.TipoManga = TipoManga;
 
 	}
